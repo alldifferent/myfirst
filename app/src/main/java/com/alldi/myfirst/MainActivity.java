@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(MainActivity.this, "ID : "+ userId, Toast.LENGTH_SHORT).show();
 
-                wasaviTxt.setText("ID:"+userId+" Password:"+password);
+                wasaviTxt.setText(String.format("ID : %s, PW : %s", userId, password));
 
 
 
